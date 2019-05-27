@@ -1,11 +1,11 @@
 #### 一个jsonp的简易封装
-
-###### 使用方法示例
 ***
 ###### 下载
 npm install my-jsonp --save-dev
 或
 yarn add my-jsonp
+###### 使用方法示例
+***
 ```
     jsonp("//localhost:8000/api/getlist", {
       data: { qwe: 123, asd: 456 },
