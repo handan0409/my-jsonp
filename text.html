@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>my-jsonp</title>
+</head>
+
+<body>
+  jsonp请求测试：
+  <p></p>
+  <script src="./index.js"></script>
+  <script>
+    jsonp("//localhost:8000/api/getlist", {
+      data: { qwe: 123, asd: 456 },
+      jsonp: "callback123",
+      jsonpCallBack: "zhangsan",
+      // timeout: 2000,
+      beforeSend: function () {
+        console.log("beforsend");
+      },
+      success: function (res) {
+        console.log(res);
+        document.querySelector("p").innerHTML = JSON.stringify(res) ;
+      },
+      complete: function () {
+        console.log("complete");
+      },
+      error: function (error) {
+        // console.log(error);
+      }
+    })
+  </script>
+</body>
+
+</html>
