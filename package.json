@@ -1,5 +1,9 @@
 {
-  "dependencies": {
-    "anywhere": "^1.5.0"
-  }
+  "name": "my-jsonp",
+  "version": "0.0.1",
+  "description": "jsonp跨域请求",
+  "main": "index.js",
+  "repository": "https://github.com/handan0409/my-jsonp.git",
+  "author": "handan",
+  "license": "MIT"
 }

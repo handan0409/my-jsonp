@@ -77,5 +77,5 @@ function jsonp(params,options){
   bodyEl.appendChild(script);
 }
 
-// module.exports = jsonp;
+module.exports = jsonp;
 // export default jsonp;
