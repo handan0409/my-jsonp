@@ -2,7 +2,7 @@
 
 ###### 使用方法示例
 ***
-####### 下载
+###### 下载
 npm install my-jsonp --save-dev
 或
 yarn add my-jsonp
