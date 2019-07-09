@@ -1,9 +1,9 @@
 #### 一个jsonp的简易封装
 ***
 ###### 下载
-npm install my-jsonp --save-dev
+npm install min-jsonp --save-dev
 或
-yarn add my-jsonp
+yarn add min-jsonp
 ###### 使用方法示例
 ***
 ```

@@ -1,9 +1,12 @@
 {
-  "name": "my-jsonp",
+  "name": "min-jsonp",
   "version": "0.0.1",
-  "description": "jsonp跨域请求",
+  "description": "轻量级jsonp跨域请求",
   "main": "index.js",
   "repository": "https://github.com/handan0409/my-jsonp.git",
   "author": "handan",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "jsonp"
+  ]
 }
