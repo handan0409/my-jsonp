@@ -6,7 +6,7 @@ npm install min-jsonp --save-dev
 yarn add min-jsonp
 ###### 使用方法示例
 ***
-```
+```js
     jsonp("//localhost:8000/api/getlist", {
       data: { qwe: 123, asd: 456 },
       jsonp: "callback123",

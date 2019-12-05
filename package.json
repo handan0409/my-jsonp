@@ -1,6 +1,6 @@
 {
   "name": "min-jsonp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "轻量级jsonp跨域请求",
   "main": "index.js",
   "repository": "https://github.com/handan0409/my-jsonp.git",

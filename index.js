@@ -24,7 +24,6 @@ function noop(){}
 function jsonp(params,options){
   if (!options) options = params;
   const { url=params, data, success, complete, error  } = options;
-  console.log(url);
   if(url === "" || url === undefined) {
     console.error("jsonp请求的url不能为空");
     return ;
